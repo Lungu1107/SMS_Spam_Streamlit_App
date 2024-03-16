@@ -36,4 +36,5 @@ A step-by-step series of examples that tell you how to get a development environ
 3. Run the Streamlit application:
 
   - streamlit run app.py
+  - https://lungu1107-sms-spam-streamlit-app-app-xxpe7c.streamlit.app/
 
