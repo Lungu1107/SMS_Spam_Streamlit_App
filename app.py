@@ -7,8 +7,10 @@ import string
 import os
 
 # Download necessary NLTK resources if not already installed (comment out if not needed)
-nltk.download('averaged_perceptron_tagger')
-nltk.download('wordnet')
+# Download NLTK data
+nltk_data_to_download = ['averaged_perceptron_tagger', 'wordnet', 'stopwords']
+for data in nltk_data_to_download:
+    nltk.download(data)
 
 # Initialize the WordNetLemmatizer
 lemmatizer = WordNetLemmatizer()
